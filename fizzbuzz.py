@@ -6,14 +6,15 @@
 #Hint: % modulo tells you what's left over when you divide one number by another
 #Example: number % 3 = 0
 
-for number in range(1,1001):
-	if number % 15 == 0:
-		print("FizzBuzz")
+def fizzbuzz(n):
+    for i in range(1, n+1):
+        if i % 3 == 0 and i % 5 == 0:
+            print("Fizzbuzz")
+        elif i % 3 == 0:
+            print("Fizz")
+        elif i % 5 == 0:
+            print("Buzz")
+        else:
+            print(i)
 
-	elif number % 3 == 0:
-		print("Fizz")
-
-	elif number % 5 == 0:
-		print("Buzz")
-
-	else: print(number)
+fizzbuzz(1000)
