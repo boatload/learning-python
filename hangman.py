@@ -1,3 +1,13 @@
+# 1. The game chooses a random word from the list of words
+# 2. The game prints the word with blanks for each letter
+# 3. The player guesses a letter
+# 4. If the letter is in the word, the game prints "Correct!"
+# 5. If the letter is not in the word, the game prints "Incorrect!"
+# 6. The game prints the number of lives remaining
+# 7. The game repeats steps 3-6 until the player runs out of lives
+# 8. If the player runs out of lives, the game prints "Game over!"
+# 9. If the player guesses all the letters in the word, the game prints "You win!"
+
 import random
 
 # List of words to choose from for the game
